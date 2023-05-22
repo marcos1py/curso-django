@@ -11,7 +11,7 @@ def home(request):
 
 
 def contato(request):
-    return render(request, "me-apaga/temp.html")
+    return render(request, "recipes/contatos.html")
 
 def sobre(request):
     return HttpResponse("sobre")
